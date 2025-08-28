@@ -5,7 +5,7 @@ const projects = [
         id: 1,
         title: "LLM based Intelligent Assistant for Navigating Procurement Guidelines in Sri Lanka ",
         decription: "LLM-based assistant to navigate Sri Lanka's procurement guidelines using RAG, document chunking, and a vector database. (ongoing final year research )",
-        image: "../public/projects/project 1.png",
+        image: "/projects/project 1.png",
         tags: ["Python", "RAG", "LLM", "FAISS", "PyMuPDF"],
 
     },
@@ -14,7 +14,7 @@ const projects = [
         id: 2,
         title: "NEXU – News Verification Robot using Crowdsourcing",
         decription: "Real-time Reddit news verification with crowdsourced signals with physical interaction.",
-        image: "../public/projects/project 2.jpeg",
+        image: "/projects/project 2.jpeg",
         tags: ["Python", "PRAW", "Groq", "Raspberry Pi", "Arduino"],
         demoUrl: "https://drive.google.com/drive/folders/18bxgjUIWrdRY55cdnAs56BBWTkEibkmG",
         githubUrl: "#"
@@ -24,7 +24,7 @@ const projects = [
         id: 3,
         title: "University Hall Booking System",
         decription: "Full-stack reservation platform with login, availability, booking, approvals, and dashboard.",
-        image: "../public/projects/project 3.png",
+        image: "/projects/project 3.png",
         tags: ["Java", "Spring Boot", "Thymeleaf", "HTML", "CSS", "MySQL", "Docker"],
         githubUrl: "https://github.com/navzyy/USJ-Hall-Booking-System-Fullstack.git"
     },
@@ -33,7 +33,7 @@ const projects = [
         id: 4,
         title: "Video Storing Problem with Genetic Algorithm",
         decription: "Genetic Algorithm approach with experiments on population size and crossover/mutation strategies.",
-        image: "../public/projects/project 4.png",
+        image: "/projects/project 4.png",
         tags: ["Python", "Genetic Algorithm", "NumPy", "Matplotlib"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/Video-Storage-Genetic-Algorithm.git"
@@ -43,7 +43,7 @@ const projects = [
         id: 5,
         title: "Medicine Recommendation System",
         decription: "Symptom-based medicine recommender with a Flask frontend and ML pipeline.",
-        image: "../public/projects/project 5.png",
+        image: "/projects/project 5.png",
         tags: ["Python", "Flask", "Pandas", "Scikit-learn", "HTML"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/Medicine-Recommendation-System.git"
@@ -53,7 +53,7 @@ const projects = [
         id: 6,
         title: "Hand Gesture Game for Kids",
         decription: "Touchless game using real-time hand tracking and gesture controls.",
-        image: "../public/projects/project 6.png",
+        image: "/projects/project 6.png",
         tags: ["Python", "OpenCV"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/Hand-gesture-game.git"
@@ -63,7 +63,7 @@ const projects = [
         id: 7,
         title: "Glow Hatty – Smart Lamp",
         decription: "ML-powered smart lamp that detects objects and adapts lighting.",
-        image: "../public/projects/project 7.jpeg",
+        image: "/projects/project 7.jpeg",
         tags: ["Arduino", "Edge Impulse"],
         demoUrl: "https://drive.google.com/file/d/1_ABgUI2KbEUTJmnZvOdfT1k7JEhzi3ZJ/view?usp=drivesdk",
         githubUrl: "https://github.com/navzyy/Glow-Hatty-HCI-Project.git"
@@ -73,7 +73,7 @@ const projects = [
         id: 8,
         title: "COVID-19 Country Report",
         decription: "Exploratory analysis and charts for Germany’s COVID-19 trends.",
-        image: "../public/projects/project 8.png",
+        image: "/projects/project 8.png",
         tags: ["R", "ggplot2", "dplyr", "RStudio"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/COVID-19-Country-Report-Germany.git"
@@ -83,7 +83,7 @@ const projects = [
         id: 9,
         title: "Hall Allocation System",
         decription: "GUI app for bookings with update/cancel, validation, and MySQL.",
-        image: "../public/projects/project 9.png",
+        image: "/projects/project 9.png",
         tags: ["Java", "Swing", "OOP", "MySQL"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/Hall-Booking-System.git"
@@ -93,7 +93,7 @@ const projects = [
         id: 10,
         title: "To-Do List Manager",
         decription: "Console task manager using core data structures and algorithms.",
-        image: "../public/projects/project 10.png",
+        image: "/projects/project 10.png",
         tags: ["Java", "DSA"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/To-Do-List.git"
@@ -103,7 +103,7 @@ const projects = [
         id: 11,
         title: "Data Pal – Mobile Data Recommender",
         decription: "Prototype that suggests cost-effective mobile data plans for Sri Lankan users.",
-        image: "../public/projects/project 11.jpeg",
+        image: "/projects/project 11.jpeg",
         tags: ["Figma"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/DataPal.git"
@@ -112,7 +112,7 @@ const projects = [
         id: 12,
         title: "Mobile Phone Purchase Automation",
         decription: "End-to-end purchase flow automation on eBay using Selenium WebDriver, TestNG, Page Object Model, and Maven with cross-browser support.",
-        image: "../public/projects/project 12.png",
+        image: "/projects/project 12.png",
         tags: ["Java", "Selenium WebDriver", "TestNG"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/selenium-testng-ebay.git"
@@ -122,7 +122,7 @@ const projects = [
         id: 13,
         title: "TripTrix",
         decription: "Responsive travel guide built with HTML, CSS, and JavaScript featuring destination search and map highlights.",
-        image: "../public/projects/project 13.png",
+        image: "/projects/project 13.png",
         tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
         demoUrl: "#",
         githubUrl: "https://github.com/navzyy/Triptrix-website.git"
