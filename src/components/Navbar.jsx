@@ -21,12 +21,17 @@ export const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+   useEffect(() => {
+  const root = document.documentElement;
+  root.classList.toggle("overflow-hidden", isMenuOpen);
+  return () => root.classList.remove("overflow-hidden");
+}, [isMenuOpen]);
 
   return (
     <nav
       className={cn(
-        "fixed w-full z-50 transition-all duration-300",
-        isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-sm" : "py-5"
+       "fixed top-0 left-0 w-full z-40 transition-all duration-300",
+    isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-sm" : "py-5"
       )}
     >
      <div className="container mx-auto flex items-center justify-between px-2 sm:px-4">
@@ -68,26 +73,37 @@ export const Navbar = () => {
       </div>
 
       {/* Mobile overlay menu */}
-      <div
-        className={cn(
-          "fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
-          "transition-all duration-300 md:hidden",
-          isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        )}
-      >
-        <div className="flex flex-col space-y-8 text-xl">
-          {navItems.map((item, i) => (
-            <a
-              key={i}
-              href={item.href}
-              className="text-foreground/80 hover:text-primary transition-colors duration-300"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              {item.name}
-            </a>
-          ))}
-        </div>
-      </div>
+    <div
+  id="mobile-menu"
+  className={cn(
+    // opaque background + full viewport height
+    "fixed inset-0 z-[60] bg-background min-h-dvh md:hidden",
+    // center the links, no internal scroll needed
+    "flex flex-col items-center justify-center gap-8 text-xl",
+    "transition-all duration-300",
+    isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+  )}
+>
+  {/* Close button (top-right) */}
+  <button
+    onClick={() => setIsMenuOpen(false)}
+    className="absolute top-4 right-4 p-2 rounded-full text-foreground/80 hover:text-primary focus:outline-none"
+    aria-label="Close menu"
+  >
+    <X size={24} />
+  </button>
+
+  {navItems.map((item, i) => (
+    <a
+      key={i}
+      href={item.href}
+      className="text-foreground/80 hover:text-primary transition-colors duration-300"
+      onClick={() => setIsMenuOpen(false)}
+    >
+      {item.name}
+    </a>
+  ))}
+</div>
     </nav>
   );
 };
