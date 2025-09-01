@@ -7,7 +7,7 @@ export const Footer =() =>{
             {" "}
             <p className="text-sm text-muted-foreground">
                 {" "}
-                &copy; {new Date().getFullYear()} Naveen Wimalarathne | All Rights Reserved.</p>
+                &copy; {new Date().getFullYear()} Naveena Wimalarathne | All Rights Reserved.</p>
                 <a href="#home" className="p-2 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-colors">
                     <ArrowUp  size={20}/>
                 </a>
