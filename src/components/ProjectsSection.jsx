@@ -30,6 +30,16 @@ const projects = [
     },
 
     {
+        id: 14,
+        title: "Stroke Prediction EDA",
+        decription: "Exploratory analysis and charts for stroke prediction.",
+        image: "/projects/project 14.png",
+        tags: ["Python", "seaborn", "scikit learn", "SMOTE"],
+        demoUrl: "#",
+        githubUrl: "https://github.com/navzyy/Stroke_Prediction-EDA.git"
+    },
+
+    {
         id: 4,
         title: "Video Storing Problem with Genetic Algorithm",
         decription: "Genetic Algorithm approach with experiments on population size and crossover/mutation strategies.",
