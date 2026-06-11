@@ -4,10 +4,22 @@ const projects = [
     {
         id: 1,
         title: "LLM based Intelligent Assistant for Navigating Procurement Guidelines in Sri Lanka ",
-        decription: "LLM-based assistant to navigate Sri Lanka's procurement guidelines using RAG, document chunking, and a vector database. (ongoing final year research )",
+        decription: "LLM-based assistant to navigate Sri Lanka's procurement guidelines using RAG, document chunking, and a vector database. (Final Year Research )",
         image: "/projects/project 1.png",
-        tags: ["Python", "RAG", "LLM", "FAISS", "PyMuPDF"],
+        tags: ["Python", "RAG", "LLM", "FAISS", "PyMuPDF", "Vector Database", "Embeddings", "Document Chunking", "LangChain", "DeepEval", "RAGAS", "Reranking"],
+        demoUrl: "https://drive.google.com/file/d/1Ch0VtGHx2XVXCq1Jwb4U9A-FSkhkYR25/view?usp=sharing",
+        githubUrl: "https://github.com/navzyy/sl-procurement-chatbot.git"
 
+    },
+
+    {
+        id: 15,
+        title: "AI Assisted Legal Management System",
+        decription: "AI-assisted legal workflow management system with AI features for document analysis, contract review, and legal research.",
+        image: "/projects/project 15.png",
+        tags: ["Python", "LLMs", "Groq", "RAG", "Semantic Search", "SQLite", "LangChain"],
+        demoUrl: "https://drive.google.com/file/d/1qlr9-n8dOxf_pEuoEgc4dvuX7Gv6ef-z/view?usp=drive_link",
+        githubUrl: "#"
     },
 
     {
@@ -19,6 +31,27 @@ const projects = [
         demoUrl: "https://drive.google.com/drive/folders/18bxgjUIWrdRY55cdnAs56BBWTkEibkmG",
         githubUrl: "#"
     },
+
+    {
+        id: 16,
+        title: "Server Performance Monitoring Using Agentic AI",
+        decription: "Agentic AI log analytics architecture for real-time anomaly detection and automated operational insights from server logs.",
+        image: "/projects/project 16.png",
+        tags: ["Agentic AI", "Kafka", "LogAI", "OpenSearch", "Logstash", "Fluentd", "Fluent Bit", "Time-Series Monitoring"],
+        demoUrl: "#",
+        githubUrl: "#"
+    },
+
+    {
+        id: 17,
+        title: "NIC Verification System",
+        decription: "Trained and Evaluated a YOLO-based NIC verification system.",
+        image: "/projects/project 17.png",
+        tags: ["Python", "YOLO", "AWS Rekognition"],
+        demoUrl: "#",
+        githubUrl: "#"
+    },
+
 
     {
         id: 3,
