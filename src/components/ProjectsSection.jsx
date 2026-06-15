@@ -6,7 +6,7 @@ const projects = [
         title: "LLM based Intelligent Assistant for Navigating Procurement Guidelines in Sri Lanka ",
         decription: "LLM-based assistant to navigate Sri Lanka's procurement guidelines using RAG, document chunking, and a vector database. (Final Year Research )",
         image: "/projects/project 1.png",
-        tags: ["Python", "RAG", "LLM", "FAISS", "PyMuPDF", "Vector Database", "Embeddings", "Document Chunking", "LangChain", "DeepEval", "RAGAS", "Reranking"],
+        tags: ["Python", "RAG", "LLM", "FAISS", "PyMuPDF", "Embeddings", "Chunking", "LangChain", "DeepEval", "RAGAS"],
         demoUrl: "https://drive.google.com/file/d/1Ch0VtGHx2XVXCq1Jwb4U9A-FSkhkYR25/view?usp=sharing",
         githubUrl: "https://github.com/navzyy/sl-procurement-chatbot.git"
 

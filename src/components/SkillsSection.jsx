@@ -7,18 +7,18 @@ import { cn } from "../lib/utils";
 const skills = [
 
   // AI / ML
-  { name: "Machine Learning", level: 90, category: "ai-ml" },
-  { name: "NLP", level: 75, category: "ai-ml" },
-  { name: "Computer Vision", level: 75, category: "ai-ml" },
-  { name: "RAG", level: 95, category: "ai-ml" },
-  { name: "LLMs", level: 80, category: "ai-ml" },
-  { name: "LangChain", level: 75, category: "ai-ml" },
-  { name: "YOLO", level: 75, category: "ai-ml" },
-  { name: "Scikit-learn", level: 80, category: "ai-ml" },
-  { name: "TensorFlow", level: 65, category: "ai-ml" },
-  { name: "OpenCV", level: 75, category: "ai-ml" },
-  { name: "RAGAS", level: 75, category: "ai-ml" },
-  { name: "DeepEval", level: 75, category: "ai-ml" },
+  { name: "Machine Learning", level: 90, category: "AI-ML" },
+  { name: "NLP", level: 75, category: "AI-ML" },
+  { name: "Computer Vision", level: 75, category: "AI-ML" },
+  { name: "RAG", level: 95, category: "AI-ML" },
+  { name: "LLMs", level: 80, category: "AI-ML" },
+  { name: "LangChain", level: 75, category: "AI-ML" },
+  { name: "YOLO", level: 75, category: "AI-ML" },
+  { name: "Scikit-learn", level: 80, category: "AI-ML" },
+  { name: "TensorFlow", level: 65, category: "AI-ML" },
+  { name: "OpenCV", level: 75, category: "AI-ML" },
+  { name: "RAGAS", level: 75, category: "AI-ML" },
+  { name: "DeepEval", level: 75, category: "AI-ML" },
 
   // Data Science
   { name: "Python", level: 90, category: "data-science" },
@@ -81,7 +81,7 @@ const skills = [
 
 const categories = [
   "all",
-  "ai-ml",
+  "AI-ML",
   "data-science",
   "big-data",
   "frontend",
