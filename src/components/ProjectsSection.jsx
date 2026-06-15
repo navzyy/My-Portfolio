@@ -19,7 +19,7 @@ const projects = [
         image: "/projects/project 15.png",
         tags: ["Python", "LLMs", "Groq", "RAG", "Semantic Search", "SQLite", "LangChain"],
         demoUrl: "https://drive.google.com/file/d/1qlr9-n8dOxf_pEuoEgc4dvuX7Gv6ef-z/view?usp=drive_link",
-        githubUrl: "#"
+        githubUrl: "https://github.com/navzyy/Legal_Management_System.git"
     },
 
     {
@@ -39,7 +39,7 @@ const projects = [
         image: "/projects/project 16.png",
         tags: ["Agentic AI", "Kafka", "LogAI", "OpenSearch", "Logstash", "Fluentd", "Fluent Bit", "Time-Series Monitoring"],
         demoUrl: "#",
-        githubUrl: "#"
+        githubUrl: "https://github.com/navzyy/Server-Performance-Monitoring-Using-Agentic-AI.git"
     },
 
     {
